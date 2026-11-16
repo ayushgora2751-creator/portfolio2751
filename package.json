@@ -1,0 +1,40 @@
+{
+  "name": "ayush-gora-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node tests/run_all.js",
+    "test:orbit": "node tests/tier1_cursor_orbit.test.js",
+    "test:audio": "node tests/tier1_audio_engine.test.js",
+    "test:builder": "node tests/tier1_site_builder.test.js",
+    "test:visual": "node tests/tier1_visual_styling.test.js",
+    "test:tier2": "node tests/tier2_boundary_corner.test.js",
+    "test:tier3": "node tests/tier3_cross_feature.test.js",
+    "test:tier4": "node tests/tier4_real_world_scenarios.test.js"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.1.7",
+    "lucide-react": "^0.368.0",
+    "next": "^14.2.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.15",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
+  }
+}
